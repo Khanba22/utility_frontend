@@ -72,7 +72,7 @@ const CertificateDesignPage = () => {
       templateId,
       dataArr: data,
     };
-    await fetch("http://localhost:4000/certificate/generate-certificate", {
+    await fetch(`${process.env.REACT_APP_BACKEND_URL}/certificate/generate-certificate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -22,7 +22,7 @@ const DesignViewPanel = () => {
   const fetchCertificate = async () => {
     try {
       const response = await fetch(
-        `http://localhost:4000/certificate/retrieve/${dataId}`
+        `${process.env.REACT_APP_BACKEND_URL}/certificate/retrieve/${dataId}`
       );
       const data = await response.json();
       console.log(data);

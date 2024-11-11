@@ -172,7 +172,7 @@ const DesignPage = ({
   const getTemplate = async () => {
     try {
       const response = await fetch(
-        `http://localhost:4000/design/retrieve/${templateId}`
+        `${process.env.REACT_APP_BACKEND_URL}/design/retrieve/${templateId}`
       );
 
       if (response.status !== 200) {
