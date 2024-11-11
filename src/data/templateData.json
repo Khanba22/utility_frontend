@@ -1,0 +1,43 @@
+[
+  {
+    "align": "left",
+    "color": "#000000",
+    "fontFamily": "Arial",
+    "fontSize": 24,
+    "fontWeight": "Lighter",
+    "height": 22.98,
+    "id": 1730139764202,
+    "scaleX": 1,
+    "scaleY": 1,
+    "text": "Date : { DD-MM-YYYY }",
+    "width": 349.03,
+    "x": 162.84,
+    "y": 536.84
+  },
+  {
+    "align": "center",
+    "color": "#40bfb9",
+    "fontFamily": "Comic Sans MS",
+    "fontSize": 57,
+    "fontWeight": "normal",
+    "height": 50.0,
+    "id": 1730139817386,
+    "text": "{Participant Name}",
+    "width": 513.06,
+    "x": 250.88,
+    "y": 281.69
+  },
+  {
+    "align": "left",
+    "color": "#000000",
+    "fontFamily": "Arial",
+    "fontSize": 24,
+    "fontWeight": "normal",
+    "height": 50.0,
+    "id": 1730139909795,
+    "text": "Has Participated in {Event Name}. His Dedication and ability to shine in various situations is outstanding, and we appreciate that.",
+    "width": 727.09,
+    "x": 164.84,
+    "y": 420.77
+  }
+]
